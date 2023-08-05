@@ -1,0 +1,27 @@
+{% extends 'list.html' %}
+{% load static %}
+{% block head_list %}
+    <script src="{% static 'niveles/js/list.js' %}"></script>
+    <link type= "text/css" href="{% static 'css/list/list.css' %}" rel="stylesheet">
+
+{% endblock %}
+{% block columns %}
+    <tr>
+        <th scope="col" style="width: 20%;">ID nivel</th>
+        <th scope="col" style="width: 20%;">Modalidad</th>
+        <th scope="col" style="width: 20%;">Nivel</th>
+        <th scope="col" style="width: 20%;">Frecuencia</th>
+        <th scope="col" style="width: 10%;">Horario</th>
+        <th scope="col" style="width: 10%;">Opciones</th>
+
+
+    </tr>
+{% endblock %}
+
+{% block rows %}
+
+{% endblock %}
+
+{% block javascript %}
+
+{% endblock %}

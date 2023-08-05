@@ -1,0 +1,42 @@
+{% extends 'home.html' %}
+{% block body %}
+    <body class="hold-transition sidebar-mini layout-fixed custom-body">
+    <div class="wrapper custom-wrapper">
+        <!-- Header -->
+        {% include 'vtc/header.html' %}
+        <!-- Sidebar -->
+        {% include 'vtc/sidebar.html' %}
+        <!-- Content -->
+        <div class="content-wrapper custom-content-wrapper">
+            <div class="content-header custom-content-header">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h1 class="m-0 text-dark">  <small class="custom-small">Novus Lingua System</small></h1>
+                        </div>
+                        <div class="col-sm-6">
+                            <ol class="breadcrumb float-sm-right custom-breadcrumb">
+                                <li class="breadcrumb-item"><a href="#" class="custom-breadcrumb-link">Home</a></li>
+                                <li class="breadcrumb-item"><a href="{{ list_url }}" class="custom-breadcrumb-link">{{ entity }}</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content custom-content">
+                <div class="container-fluid">
+                    {% block content %}
+
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        {% include 'footer.html' %}
+    </div>
+    <!-- Block javascript -->
+    {% block javascript %}
+
+    {% endblock %}
+    </body>
+{% endblock %}
