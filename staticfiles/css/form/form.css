@@ -1,0 +1,145 @@
+/* Estilos para el fondo */
+body {
+    background-color: #252a34; /* Color de fondo del cuerpo de la página */
+  }
+  
+  .card {
+    background-color: #252a34; /* Color de fondo de las tarjetas */
+  }
+  
+  /* Estilos para las letras */
+  body {
+    color: #08d9d6; /* Color del texto principal */
+    font-family: Arial, sans-serif; /* Fuente del texto principal */
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #08d9d6; /* Color del texto de los títulos */
+    font-weight: bold; /* Texto en negrita para los títulos */
+  }
+  
+/* Estilos para los campos del formulario */
+/* Estilos para los campos del formulario */
+.form-control {
+    background-color: #252a34; /* Color de fondo de los campos de entrada */
+    color: #ffffff; /* Color del texto en los campos de entrada */
+    border: 1px solid #08d9d6; /* Borde de los campos de entrada */
+    border-radius: 5px; /* Bordes redondeados de los campos de entrada */
+    padding: 10px 20px; /* Espacio interno de los campos de entrada */
+    transition: border-color 0.2s, box-shadow 0.2s; /* Transiciones suaves para los cambios */
+  }
+  
+  /* Estilos al enfocar los campos de entrada */
+  .form-control:focus {
+    background-color: #252a34; /* Cambio de color de fondo al enfocar */
+    color: #ffffff; /* Cambio de color del texto al enfocar */
+    border-color: #08d9d6; /* Cambio de color del borde al enfocar */
+    box-shadow: 0 0 5px #08d9d6; /* Sombra al enfocar los campos de entrada */
+  }
+  
+  /* Estilos para los botones */
+  .btn {
+    background-color: #08d9d6;
+    color: #252a34;
+    border: 1px solid #08d9d6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+  }
+  
+  /* Estilos al pasar el cursor sobre el botón */
+  .btn:hover {
+    background-color: #252a34; /* Color de fondo al pasar el cursor sobre el botón */
+    color: #08d9d6; /* Color del texto al pasar el cursor sobre el botón */
+    border-color: #08d9d6; /* Color del borde al pasar el cursor sobre el botón */
+  }
+  
+  /* Estilos para los botones al hacer clic */
+  .btn:active {
+    background-color: #05a3aa; /* Color de fondo al seleccionar el botón */
+    color: #ffffff; /* Color del texto al seleccionar el botón */
+    border-color: #05a3aa; /* Color del borde al seleccionar el botón */
+  }
+  
+  /* Estilos para el mensaje de error */
+  .alert-danger {
+    background-color: #dc3545; /* Color de fondo del mensaje de error */
+    color: #ffffff; /* Color del texto en el mensaje de error */
+    border: none; /* Borde del mensaje de error */
+    border-radius: 5px; /* Bordes redondeados del mensaje de error */
+    padding: 10px 20px; /* Espacio interno del mensaje de error */
+  }
+  
+  .card-header {
+    background-color: #252a34 !important; /* Cambia el color de fondo según tu preferencia */
+    color: #08d9d6 !important; /* Cambia el color del texto según tu preferencia */
+    padding: 10px; /* Espaciado interno */
+    border-bottom: 1px solid #252a34; /* Borde inferior */
+    border-radius: 4px 4px 0 0; /* Radio de los bordes */
+}
+
+.card-title {
+    color: #08d9d6 !important; /* Cambia el color del texto según tu preferencia */
+    padding: 10px; /* Espaciado interno */
+    border-bottom: 1px solid #252a34; /* Borde inferior */
+    border-radius: 4px 4px 0 0; /* Radio de los bordes */
+}
+
+/* Personalizar la apariencia del cuadro de búsqueda */
+.select2-container .select2-search__field {
+    border: 1px solid #08d9d6; /* Borde del cuadro de búsqueda */
+    border-radius: 5px; /* Bordes redondeados del cuadro de búsqueda */
+    background-color: #252a34; /* Color de fondo del cuadro de búsqueda */
+    color: #08d9d6; /* Color del texto del cuadro de búsqueda */
+    padding: 5px; /* Espaciado interno del cuadro de búsqueda */
+  }
+  
+  
+  /* Personalizar la apariencia de las opciones del desplegable */
+.select2-results__option {
+    color: #08d9d6; /* Color del texto de las opciones */
+    background-color: #252a34; /* Color de fondo de las opciones */
+}
+
+/* Personalizar la apariencia de las opciones al pasar el cursor sobre ellas */
+.select2-results__option:hover {
+    background-color: #08d9d6; /* Color de fondo al pasar el cursor sobre las opciones */
+    color: #252a34; /* Color del texto al pasar el cursor sobre las opciones */
+}
+
+/* Personalizar la apariencia de la opción seleccionada */
+.select2-results__option--selected {
+    background-color: #252a34; /* Color de fondo de la opción seleccionada */
+    color: #08d9d6; /* Color del texto de la opción seleccionada */
+}
+
+/* Personalizar la apariencia de la opción seleccionada cuando está enfocada */
+.select2-results__option--selected:focus {
+    background-color: #252a34; /* Color de fondo de la opción seleccionada cuando está enfocada */
+    color: #08d9d6; /* Color del texto de la opción seleccionada cuando está enfocada */
+}
+
+/* Personalizar la apariencia del desplegable completo */
+.select2-container {
+    width: 100%; /* Ancho del desplegable */
+    border: 1px solid #08d9d6; /* Borde del desplegable */
+    border-radius: 5px; /* Bordes redondeados del desplegable */
+}
+
+/* Personalizar la apariencia del desplegable al pasar el cursor sobre él */
+.select2-container:hover {
+    border-color: #252a34; /* Color del borde al pasar el cursor sobre el desplegable */
+}
+
+/* Personalizar la apariencia del campo de búsqueda en Select2 */
+.select2-search--dropdown {
+    background-color: #252a34; /* Color de fondo del campo de búsqueda */
+    color: #08d9d6; /* Color del texto del campo de búsqueda */
+    border: 1px solid #08d9d6; /* Borde del campo de búsqueda */
+
+}
+
+/* Personalizar la apariencia del campo de búsqueda al pasar el cursor sobre él */
+.select2-search__field:hover {
+    border-color: #252a34; /* Color del borde al pasar el cursor sobre el campo de búsqueda */
+}

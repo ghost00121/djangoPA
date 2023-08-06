@@ -1,0 +1,114 @@
+.card-header {
+    background-color: #252a34 !important; /* Cambia el color de fondo según tu preferencia */
+    color: #08d9d6 !important; /* Cambia el color del texto según tu preferencia */
+    padding: 10px; /* Espaciado interno */
+    border-bottom: 1px solid #252a34; /* Borde inferior */
+    border-radius: 4px 4px 0 0; /* Radio de los bordes */
+}
+
+.card-title {
+    color: #08d9d6 !important; /* Cambia el color del texto según tu preferencia */
+    padding: 10px; /* Espaciado interno */
+    border-bottom: 1px solid #252a34; /* Borde inferior */
+    border-radius: 4px 4px 0 0; /* Radio de los bordes */
+}
+
+.custom-content {
+    background-color: #252a34 !important; /* Cambia el color de fondo según tu preferencia */
+
+}
+
+.card-body {
+    background-color: #252a34 !important; /* Cambia el color de fondo según tu preferencia */
+    color: #08d9d6 !important; /* Cambia el color del texto según tu preferencia */
+    padding: 10px; /* Espaciado interno */
+    border-bottom: 1px solid #252a34; /* Borde inferior */
+    border-radius: 4px 4px 0 0; /* Radio de los bordes */
+}
+
+/* Estilos generales para la tabla */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #252a34;
+    color: #ffffff;
+}
+
+/* Estilos para las celdas de la tabla */
+td, th {
+    padding: 8px;
+    border: 1px solid #08d9d6;
+    text-align: center; /* Centrar el texto en las celdas y en los encabezados */
+}
+
+/* Estilos para los encabezados de columna */
+th {
+    background-color: #010e0e;
+    font-weight: bold;
+    text-align: center !important; /* Centrar el texto en los encabezados de columna */
+
+}
+.dataTables_filter {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.dataTables_length {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.dataTables_paginate {
+    text-align: center;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.btnTest {
+    margin-bottom: 10px;
+}
+
+/* Personalizar el color de fondo y texto del card-footer */
+.card-footer {
+    background-color: #252a34; /* Cambia el color del fondo según tu preferencia */
+    color: #08d9d6; /* Cambia el color del texto según tu preferencia */
+}
+
+/* Estilos para los botones del card-footer */
+.card-footer .btn {
+    background-color: #08d9d6; /* Color de fondo inicial del botón */
+    color: #252a34; /* Color del texto inicial del botón */
+    border-color: #08d9d6; /* Color del borde inicial del botón */
+    border-radius: 4px; /* Agrega bordes redondeados */
+    padding: 8px 20px; /* Ajusta el espaciado interno del botón */
+    margin-right: 10px; /* Agrega un margen derecho entre los botones */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Agrega transiciones suaves para el cambio de color */
+}
+
+/* Estilos para el ícono dentro del botón */
+.card-footer .btn i {
+    margin-right: 5px; /* Agrega un margen derecho entre el ícono y el texto */
+}
+
+/* Estilos para los botones en general */
+.card-footer .btn {
+    margin: 5px; /* Ajusta el margen entre los botones */
+    padding: 8px 16px; /* Ajusta el padding interno de los botones */
+}
+
+/* Estilos para el botón cuando el cursor está encima (hover) */
+.card-footer .btn:hover {
+    background-color: #252a34; /* Color de fondo al pasar el cursor sobre el botón */
+    color: #08d9d6; /* Color del texto al pasar el cursor sobre el botón */
+    border-color: #08d9d6; /* Color del borde al pasar el cursor sobre el botón */
+}
+
+/* Estilos para el botón cuando está activo (seleccionado) */
+.card-footer .btn:active {
+    background-color: #05a3aa; /* Color de fondo al seleccionar el botón */
+    color: #ffffff; /* Color del texto al seleccionar el botón */
+    border-color: #05a3aa; /* Color del borde al seleccionar el botón */
+}

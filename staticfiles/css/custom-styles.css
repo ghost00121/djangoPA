@@ -1,0 +1,131 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #252a34; /* Color de fondo de la barra de navegación */
+    border: 1px solid #08d9d6;;
+}
+
+/* Estilos para los enlaces en la barra de navegación */
+.navbar a.nav-link {
+    color: #08d9d6; /* Color del texto de los enlaces */
+}
+
+/* Estilos para el enlace de "Home" */
+.navbar a.nav-link:first-child {
+    color: #08d9d6; /* Color del texto del enlace "Home" */
+}
+
+/* Estilos para el ícono de usuarios en la barra de navegación */
+.navbar a.nav-link i {
+    color: #08d9d6; /* Color del ícono de usuarios */
+}
+
+/* Estilos para el menú desplegable */
+.dropdown-menu {
+    background-color: #252a34; /* Color de fondo del menú desplegable */
+}
+
+/* Estilos para el encabezado del menú desplegable */
+.dropdown-menu .dropdown-header {
+    color: #08d9d6; /* Color del texto del encabezado del menú desplegable */
+}
+
+/* Estilos para los elementos del menú desplegable */
+.dropdown-menu .dropdown-item {
+    color: #08d9d6; /* Color del texto de los elementos del menú desplegable */
+}
+
+/* Estilos para el pie de página del menú desplegable */
+.dropdown-menu .dropdown-footer {
+    color: #08d9d6; /* Color del texto del pie de página del menú desplegable */
+}
+
+/* Estilos para la clase custom-content-header */
+.custom-content-header {
+    background-color: #252a34; /* Color de fondo del header */
+}
+
+/* Estilos para el texto dentro del header */
+.custom-content-header h1, .custom-content-header small {
+    color: #08d9d6; /* Color del texto dentro del header */
+}
+
+/* Estilos para los enlaces dentro del header */
+.custom-content-header a {
+    color: #08d9d6; /* Color del texto de los enlaces dentro del header */
+}
+
+/* Estilos para los enlaces de breadcrumb dentro del header */
+.custom-content-header .breadcrumb-item a {
+    color: #08d9d6; /* Color del texto de los enlaces de breadcrumb */
+}
+
+/* Estilos para el fondo del breadcrumb */
+.custom-breadcrumb {
+    background-color: #252a34; /* Color de fondo del breadcrumb */
+}
+
+/* Estilos para el fondo del custom-content-wrapper */
+.custom-content-wrapper {
+    background-color: #010e0e; /* Color de fondo del custom-content-wrapper */
+}
+
+/* Estilos para el fondo del custom-content */
+.custom-content {
+    background-color: #010e0e; /* Color de fondo del custom-content */
+}
+
+
+/* Estilos para el fondo del sidebar */
+.main-sidebar {
+    background-color: #252a34; /* Color de fondo del sidebar */
+}
+
+/* Estilos para los bordes del sidebar */
+.main-sidebar {
+    border-right: 2px solid #08d9d6; /* Bordes del sidebar */
+}
+
+/* Estilos para el borde de los íconos del sidebar */
+.main-sidebar .nav-link i {
+    border: 1px solid #08d9d6; /* Borde de los íconos del sidebar */
+    border-radius: 50%; /* Para hacer los íconos redondeados */
+    padding: 5px; /* Ajustar el espacio entre el ícono y el borde */
+}
+
+/* Estilos para el contenedor del usuario */
+.user-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #08d9d6;
+}
+
+/* Estilos para la imagen del usuario */
+.user-panel .image img {
+    width: 140px;
+    height: 140px;
+    border: 2px solid #08d9d6;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Estilos para el nombre del usuario */
+.user-panel .info a {
+    color: #08d9d6;
+    margin-top: 10px;
+    font-size: 24px; /* Ajusta el tamaño de fuente según tus preferencias */
+
+}
+
+
+
+
+/* Estilo para el pie de página */
+.main-footer {
+    background-color: #252a34;
+    color: #ffffff;
+    border-top: 2px solid #08d9d6;
+    border-bottom: 2px solid #08d9d6;
+  }
+  
